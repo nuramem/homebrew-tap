@@ -7,17 +7,17 @@
 class Nura < Formula
   desc "Cross-model memory from the terminal (Nuramem CLI)"
   homepage "https://nuramem.ai"
-  version "0.2.1"   # bumped per release tag (cli-v<version>)
+  version "0.2.2"   # bumped per release tag (cli-v<version>)
   license :cannot_represent   # proprietary
 
   on_macos do
     url "https://github.com/nuramem/cli/releases/download/cli-v#{version}/nura-macos-arm64"
-    sha256 "97ebcd22a9a52f02f1e617f87ab6517ef8214b5861b40d294584c736edd594eb"
+    sha256 "371de79dea2d4b47e6a19b17461c38e38ed025e035c9a69158defda00e50d9c1"
   end
 
   on_linux do
     url "https://github.com/nuramem/cli/releases/download/cli-v#{version}/nura-linux-x86_64"
-    sha256 "3d03af891d5860135bb589bdfc678274106c463270e13c02e9c1118e028fed93"
+    sha256 "7fe2bbc24035057b6deef5463996d9bdf0e1554f25a16d54970d69fa54efcbc7"
   end
 
   def install
